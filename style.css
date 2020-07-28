@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(media/bckg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center top;
+    font-family: Helvetica, sans-serif;
+    
+}
+
+.menu{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    padding:2px;
+    margin-bottom: 5%;
+    border-bottom: rgba(255, 255, 255, 0.90) solid;
+    border-bottom-width: 2px;
+    /* height: 50%; */
+}
+
+.logo{
+    width: 10%;
+    margin-left: 2%;
+    margin-right: 5%;
+    float: left;
+}
+
+header{
+    margin-bottom: 5%;
+}
+
+ul{
+    list-style: none;
+}
+
+header nav ul li{
+    float: left;
+    padding: 0 2%;
+    margin-top: 0.5%;
+   
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+
+a:hover{
+    color: orangered;
+    transition: 250ms;
+}
+
+article{
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 10px;
+    width: 50%;
+    margin-bottom:2%;
+    margin-left: 5%;
+    margin-right: 15%;
+    padding: 2% 2%;
+    box-sizing: content-box;
+    border: black solid;
+    float: left;
+}
+
+h2{
+    font-size: 40 px;
+    padding-bottom: 5px;
+    color: #004ce4;
+    
+}
+
+.img_adjunta{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+p{
+    margin: 2%;
+}
+
+.sets{
+    background-color: black;
+    display: inline-block;
+    margin: 0 0;
+    box-sizing: content-box;
+    padding: 1%;
+
+}
+.sets h2{
+    font-size: 40 px;
+    padding-bottom: 5px;
+    color:orangered;
+    text-align: center;
+}
